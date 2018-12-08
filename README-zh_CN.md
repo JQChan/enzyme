@@ -6,11 +6,9 @@ Enzyme
 [![npm Version](https://img.shields.io/npm/v/enzyme.svg)](https://www.npmjs.com/package/enzyme) [![License](https://img.shields.io/npm/l/enzyme.svg)](https://www.npmjs.com/package/enzyme) [![Build Status](https://travis-ci.org/airbnb/enzyme.svg)](https://travis-ci.org/airbnb/enzyme) [![Coverage Status](https://coveralls.io/repos/airbnb/enzyme/badge.svg?branch=master&service=github)](https://coveralls.io/github/airbnb/enzyme?branch=master)
 
 
-Enzyme is a JavaScript Testing utility for React that makes it easier to assert, manipulate,
-and traverse your React Components' output.
+Enzyme是一个React的JavaScript测试工具，它可以很容易地断言，操作和遍历React Components的输出.
 
-Enzyme's API is meant to be intuitive and flexible by mimicking jQuery's API for DOM manipulation
-and traversal.
+通过模仿jQuery用于DOM操作和遍历的API，Enzyme的API非常的直观和灵活.
 
 从Enzyme 2.x 或 React < 16 升级
 ===========
