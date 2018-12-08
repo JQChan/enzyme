@@ -12,7 +12,7 @@ and traverse your React Components' output.
 Enzyme's API is meant to be intuitive and flexible by mimicking jQuery's API for DOM manipulation
 and traversal.
 
-Upgrading from Enzyme 2.x or React < 16
+从Enzyme 2.x 或 React < 16 升级
 ===========
 
 Are you here to check whether or not Enzyme is compatible with React 16? Are you currently using
@@ -59,7 +59,7 @@ import Adapter from 'enzyme-adapter-react-16';
 Enzyme.configure({ adapter: new Adapter() });
 ```
 
-3rd Party Adapters
+第三方 Adapters
 =============
 
 It is possible for the community to create additional (non-official) adapters that will make enzyme
@@ -71,7 +71,7 @@ to make a PR to this README and add a link to it! The known 3rd party adapters a
 | [`preact-enzyme-adapter`](https://github.com/aweary/preact-enzyme-adapater) | [`preact`](https://github.com/developit/preact) | (work in progress) |
 |[`enzyme-adapter-inferno`](https://github.com/bbc/enzyme-adapter-inferno)|[`inferno`](https://github.com/infernojs/inferno)|(work in progress)|
 
-Running Enzyme Tests
+运行 Enzyme 测试
 ===========
 
 Enzyme is unopinionated regarding which test runner or assertion library you use, and should be
